@@ -11,19 +11,19 @@ const Navbar = () => {
       link: "/",
     },
     {
-      name: "About",
+      name: "Sobre Nós",
       link: "/about",
     },
     {
-      name: "Services",
+      name: "Serviços",
       link: "/services",
     },
     {
-      name: "Plan",
+      name: "Planos",
       link: "/plan",
     },
     {
-      name: "Contact",
+      name: "Contato",
       link: "/contact",
     },
   ];
@@ -70,7 +70,7 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <PrimaryBtn>Become A Member</PrimaryBtn>
+              <PrimaryBtn>Torne-se um membro</PrimaryBtn>
             </ul>
           </div>
         </div>
